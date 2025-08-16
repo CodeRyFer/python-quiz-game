@@ -38,12 +38,12 @@ else:
     print("Incorrect!")
 
 if points == 0:
-    print("You scored " + points + "points! Time to study!")
+    print("You scored " + str(points) + " points! Time to study!")
 elif points == 1:
-    print("You scored " + points + "points! That's only 25% :(")
+    print("You scored " + str(points) + " points! That's only 25% :(")
 elif points == 2:
-    print("You scored " + points + "points! Eh, you could do better!")
+    print("You scored " + str(points) + " points! Eh, you could do better!")
 elif points == 3:
-    print("You scored " + points + "points! Only one answer from perfect!")
+    print("You scored " + str(points) + " points! Only one answer from perfect!")
 else:
-    print("You scored " + points + "points! You're amazing! 100%!")    
+    print("You scored " + str(points) + " points! You're amazing! 100%!")    
